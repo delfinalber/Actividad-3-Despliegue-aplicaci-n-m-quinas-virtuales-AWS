@@ -1,0 +1,29 @@
+I, [2026-01-09T19:15:16.328749 #2650]  INFO -- default-ubuntu:1804: -----> Creating <default-ubuntu:1804>...
+E, [2026-01-09T19:15:16.579535 #2650] ERROR -- default-ubuntu:1804: Create failed on instance <default-ubuntu:1804>.
+E, [2026-01-09T19:15:16.580284 #2650] ERROR -- default-ubuntu:1804: ------Exception-------
+E, [2026-01-09T19:15:16.580909 #2650] ERROR -- default-ubuntu:1804: Class: Kitchen::ActionFailed
+E, [2026-01-09T19:15:16.581499 #2650] ERROR -- default-ubuntu:1804: Message: Unknown platform 'ubuntu:18.04'
+E, [2026-01-09T19:15:16.582101 #2650] ERROR -- default-ubuntu:1804: ----------------------
+E, [2026-01-09T19:15:16.583031 #2650] ERROR -- default-ubuntu:1804: ------Backtrace-------
+E, [2026-01-09T19:15:16.583447 #2650] ERROR -- default-ubuntu:1804: /var/lib/gems/3.2.0/gems/kitchen-docker-3.0.0/lib/kitchen/docker/helpers/dockerfile_helper.rb:48:in `dockerfile_platform'
+E, [2026-01-09T19:15:16.583802 #2650] ERROR -- default-ubuntu:1804: /var/lib/gems/3.2.0/gems/kitchen-docker-3.0.0/lib/kitchen/docker/container/linux.rb:113:in `dockerfile'
+E, [2026-01-09T19:15:16.584138 #2650] ERROR -- default-ubuntu:1804: /var/lib/gems/3.2.0/gems/kitchen-docker-3.0.0/lib/kitchen/docker/container/linux.rb:41:in `create'
+E, [2026-01-09T19:15:16.584480 #2650] ERROR -- default-ubuntu:1804: /var/lib/gems/3.2.0/gems/kitchen-docker-3.0.0/lib/kitchen/driver/docker.rb:125:in `create'
+E, [2026-01-09T19:15:16.584822 #2650] ERROR -- default-ubuntu:1804: /home/delfin/.local/share/gem/ruby/3.2.0/gems/test-kitchen-3.9.1/lib/kitchen/instance.rb:496:in `public_send'
+E, [2026-01-09T19:15:16.585128 #2650] ERROR -- default-ubuntu:1804: /home/delfin/.local/share/gem/ruby/3.2.0/gems/test-kitchen-3.9.1/lib/kitchen/instance.rb:496:in `block in perform_action'
+E, [2026-01-09T19:15:16.585412 #2650] ERROR -- default-ubuntu:1804: /home/delfin/.local/share/gem/ruby/3.2.0/gems/test-kitchen-3.9.1/lib/kitchen/instance.rb:564:in `synchronize_or_call'
+E, [2026-01-09T19:15:16.585695 #2650] ERROR -- default-ubuntu:1804: /home/delfin/.local/share/gem/ruby/3.2.0/gems/test-kitchen-3.9.1/lib/kitchen/instance.rb:525:in `block in action'
+E, [2026-01-09T19:15:16.586022 #2650] ERROR -- default-ubuntu:1804: /var/lib/gems/3.2.0/gems/benchmark-0.5.0/lib/benchmark.rb:305:in `measure'
+E, [2026-01-09T19:15:16.586381 #2650] ERROR -- default-ubuntu:1804: /home/delfin/.local/share/gem/ruby/3.2.0/gems/test-kitchen-3.9.1/lib/kitchen/instance.rb:524:in `action'
+E, [2026-01-09T19:15:16.586687 #2650] ERROR -- default-ubuntu:1804: /home/delfin/.local/share/gem/ruby/3.2.0/gems/test-kitchen-3.9.1/lib/kitchen/instance.rb:496:in `perform_action'
+E, [2026-01-09T19:15:16.587075 #2650] ERROR -- default-ubuntu:1804: /home/delfin/.local/share/gem/ruby/3.2.0/gems/test-kitchen-3.9.1/lib/kitchen/instance.rb:404:in `create_action'
+E, [2026-01-09T19:15:16.587442 #2650] ERROR -- default-ubuntu:1804: /home/delfin/.local/share/gem/ruby/3.2.0/gems/test-kitchen-3.9.1/lib/kitchen/instance.rb:392:in `block (2 levels) in transition_to'
+E, [2026-01-09T19:15:16.587785 #2650] ERROR -- default-ubuntu:1804: /home/delfin/.local/share/gem/ruby/3.2.0/gems/test-kitchen-3.9.1/lib/kitchen/lifecycle_hooks.rb:47:in `run_with_hooks'
+E, [2026-01-09T19:15:16.588533 #2650] ERROR -- default-ubuntu:1804: /home/delfin/.local/share/gem/ruby/3.2.0/gems/test-kitchen-3.9.1/lib/kitchen/instance.rb:391:in `block in transition_to'
+E, [2026-01-09T19:15:16.589057 #2650] ERROR -- default-ubuntu:1804: /home/delfin/.local/share/gem/ruby/3.2.0/gems/test-kitchen-3.9.1/lib/kitchen/instance.rb:390:in `each'
+E, [2026-01-09T19:15:16.589668 #2650] ERROR -- default-ubuntu:1804: /home/delfin/.local/share/gem/ruby/3.2.0/gems/test-kitchen-3.9.1/lib/kitchen/instance.rb:390:in `transition_to'
+E, [2026-01-09T19:15:16.590219 #2650] ERROR -- default-ubuntu:1804: /home/delfin/.local/share/gem/ruby/3.2.0/gems/test-kitchen-3.9.1/lib/kitchen/instance.rb:139:in `converge'
+E, [2026-01-09T19:15:16.590659 #2650] ERROR -- default-ubuntu:1804: /home/delfin/.local/share/gem/ruby/3.2.0/gems/test-kitchen-3.9.1/lib/kitchen/command.rb:195:in `public_send'
+E, [2026-01-09T19:15:16.591060 #2650] ERROR -- default-ubuntu:1804: /home/delfin/.local/share/gem/ruby/3.2.0/gems/test-kitchen-3.9.1/lib/kitchen/command.rb:195:in `run_action_in_thread'
+E, [2026-01-09T19:15:16.591508 #2650] ERROR -- default-ubuntu:1804: /home/delfin/.local/share/gem/ruby/3.2.0/gems/test-kitchen-3.9.1/lib/kitchen/command.rb:166:in `block (2 levels) in run_action'
+E, [2026-01-09T19:15:16.591869 #2650] ERROR -- default-ubuntu:1804: ----End Backtrace-----

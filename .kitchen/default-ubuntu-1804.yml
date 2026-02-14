@@ -1,0 +1,7 @@
+---
+username: kitchen
+ssh_key: "/mnt/c/Users/delfi/VirtualBox VMs/vagrant/TRABAJO-1/.kitchen/docker_id_rsa"
+image_id: 3d7e5176a002
+container_id: 6f2f9d8c71b113dba89c421621f34fcccb2647030e634c87de7319d15cdf2a9e
+hostname: localhost
+last_error: Kitchen::ActionFailed
